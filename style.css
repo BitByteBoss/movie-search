@@ -29,7 +29,7 @@
     padding: 0.5em 1em;
     border: none;
     background-color: #fca303;
-    color: white;
+    /* color: white; */
     cursor: pointer;
 }
 

@@ -3,7 +3,7 @@ const movie = document.querySelector(".search-input");
 const searchBtn = document.querySelector(".search-btn");
 
 const searchMovie = async (movieName) => {
-  let response = await fetch(`http://www.omdbapi.com/?apikey=${API_key}&t=${movieName}`);
+  let response = await fetch(`https://www.omdbapi.com/?apikey=${API_key}&t=${movieName}`);
   let data = await response.json();
   console.log(data);
 
